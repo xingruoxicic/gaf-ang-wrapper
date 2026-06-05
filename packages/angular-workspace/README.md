@@ -15,6 +15,12 @@ npm link
 npm link stencil-library
 ```
 
+3. Repeat for `component-library`
+```bash
+cd projects/component-library
+npm link stencil-library
+```
+
 ## Development server
 
 To start a local development server, run:
@@ -40,6 +46,11 @@ ng generate --help
 ```
 
 ## Building
+
+To build the Angular component library:
+```bash
+npx -p @angular/cli ng build component-library
+```
 
 To build the project run:
 
